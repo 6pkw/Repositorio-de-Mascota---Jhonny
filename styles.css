@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #fceabb, #f8b500);
+    background: linear-gradient(to right, #fce4ec, #e0f7fa);
     margin: 0;
     padding: 0;
 }
@@ -8,15 +8,15 @@ body {
 .container {
     max-width: 500px;
     margin: 40px auto;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #333333;
 }
 
 form {
@@ -27,6 +27,7 @@ form {
 label {
     margin-top: 15px;
     font-weight: bold;
+    color: #444;
 }
 
 input, select {
@@ -34,17 +35,23 @@ input, select {
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-top: 5px;
+    background-color: #fafafa;
 }
 
 button {
     margin-top: 20px;
-    background-color: #c600f8;
-    color: navy;
+    background-color: #a5d6a7;
+    color: #1b5e20;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #81c784;
 }
 
 .pet-image {
