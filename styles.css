@@ -1,13 +1,28 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #fce4ec, #e0f7fa);
+    background-image: url('https://media.istockphoto.com/id/1189999060/es/vector/ilustraci%C3%B3n-de-stock-de-animal-paw-seamless-pattern.jpg?s=612x612&w=0&k=20&c=cG5fdowCDCOVY10Lf1DEOdeTwkEm4lygRCaczZ_bjNo=');
+    background-size: 150px;
+    background-repeat: repeat;
+    animation: moverFondo 30s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px;
     margin: 0;
-    padding: 0;
+}
+
+@keyframes moverFondo {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 1000px 1000px;
+    }
 }
 
 .container {
     max-width: 500px;
-    margin: 40px auto;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 30px;
@@ -30,7 +45,8 @@ label {
     color: #444;
 }
 
-input, select {
+input,
+select {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -58,5 +74,5 @@ button:hover {
     display: block;
     margin: 30px auto 0;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 10px;
 }
