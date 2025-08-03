@@ -1,0 +1,56 @@
+body {
+    font-family: 'segoe UI', sans-serif;
+    background: linear-gradient(right, #fceabb, #f8b500);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 500;
+    margin: 40 auto;
+    background-color: white;
+    border-radius: 10;
+    padding: 30;
+    box-shadow: 0 0 15 rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center
+    color #333; 
+}
+
+form {
+    display: flex;
+    flex-direction: column
+}
+
+label {
+    margin-top: 15;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8;
+    border-radius: 5;
+    border: 1 solid #ccc;
+    margin-top: 5
+}
+
+button {
+    margin-top: 20;
+    background-color: #c600f8;
+    color: navy blue
+    padding 10
+    border none;
+    border-radius: 5;
+    cursor: pointer;
+    font-style: 16;
+}
+
+.pet-image {
+    display: block;
+    margin: 30px auto 0;
+    max-width: 100%;
+    border-radius: 10px;
+}
